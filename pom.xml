@@ -120,8 +120,9 @@
             <Export-Package>*</Export-Package>
             <!-- <Require-Bundle></Require-Bundle> -->
             <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment> -->
-            <Import-Package>!com.sun.msv.datatype,!com.sun.msv.datatype.xsd,!org.gjt.xpp,!org.xmlpull.v1,!org.jaxen,!org.jaxen.pattern,!org.relaxng.datatype</Import-Package>
+            <Import-Package>!com.sun.msv.datatype,!com.sun.msv.datatype.xsd,!org.gjt.xpp,!org.xmlpull.v1,!org.jaxen,!org.jaxen.pattern,!org.relaxng.datatype,*</Import-Package>
             <DynamicImport-Package>com.sun.msv.datatype,com.sun.msv.datatype.xsd,org.gjt.xpp,org.xmlpull.v1,org.jaxen,org.jaxen.pattern,org.relaxng.datatype</DynamicImport-Package>
+          <!-- <Fragment-Host></Fragment-Host> -->
           </instructions>
         </configuration>
         <extensions>true</extensions>
